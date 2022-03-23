@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body class="center">
+    <h1>Novo Quiz</h1>
+
+    <div class="center-horizontal margin-around">
+        <label>
+            Nome do Quiz
+            <input id="nomeQuiz">
+        </label>
+        <button onclick="salvarQuiz()">Salvar Quiz</button>
+    </div>
+    <button>Adicionar Pergunta</button>
+
+    <script type="text/javascript" th:src="@{/js/funcoesNovoQuiz.js}"></script>
+</body>
+</html>
