@@ -1,16 +1,36 @@
-.center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.center-horizontal {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:wght@700&display=swap');
+
+@font-face {
+    font-family: RubikLocal;
+    src: url("../font/rubik.ttf");
 }
 
-.margin-around {
-    margin: 2rem;
+body {
+    background: #35363A;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: aliceblue;
+    font-family: Rubik, RubikLocal, serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.espacamento {
+    margin: 1em;
+}
+
+#divisao {
+    background-color: chocolate;
+    margin: 1rem 20%;
+    padding: 2em;
+    width: 50rem;
+    height: 10rem;
 }
