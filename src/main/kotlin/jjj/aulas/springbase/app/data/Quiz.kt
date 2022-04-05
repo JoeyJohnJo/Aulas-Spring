@@ -7,7 +7,7 @@ import javax.validation.constraints.NotNull
 @Entity // Indica que esta classe está vinculada a uma tabela do banco de dados
 @Table(name = "quiz") // Indica qual o nome da tabela que está vinculada a esta classe
 @SequenceGenerator(name = "quiz_id_seq", sequenceName = "quiz_id_seq", allocationSize = 1) // Indica qual o nome da sequência que está vinculada a esta classe
-class Quiz (
+data class Quiz (
 
     @Id // Indica que este atributo é a chave primária da tabela
     @NotNull // Indica que este atributo não pode ser nulo
